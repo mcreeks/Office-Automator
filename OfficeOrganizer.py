@@ -1,5 +1,6 @@
 from time import sleep  # Import sleep Library
 import RPi.GPIO as GPIO  # Import GPIO Library
+import random 
 
 GPIO.setmode(GPIO.BOARD)  # Use Physical Pin Numbering Scheme
 button1 = 18  # Button 1 is connected to physical pin 16
